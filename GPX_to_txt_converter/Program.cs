@@ -59,6 +59,7 @@ namespace GPX_to_txt_converter
                 }
                 catch (Exception exception)
                 {
+                    MessageBox.Show(exception.Message);
                     Console.WriteLine(exception.Message);
                 }
             }
